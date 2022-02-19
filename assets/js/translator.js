@@ -6,17 +6,17 @@
     const Traduzir = document.getElementById('Traduzir');
     const revert = document.getElementById('revert');
     const alphabet = {
-        'a': '#', 'A': '#', 
+       'a': 'y', 'A': 'Y', 
         'b': 'p', 'B': 'P', 
-        'c': '%', 'C': '%', 
+        'c': 'l', 'C': 'L', 
         'd': 't', 'D': 'T', 
-        'e': '¨', 'E': '¨', 
-        'f': '@', 'F': '@', 
-        'g': '*', 'G': '*', 
+        'e': 'a', 'E': 'A', 
+        'f': 'v', 'F': 'V', 
+        'g': 'k', 'G': 'K', 
         'h': 'r', 'H': 'R', 
-        'i': '§', 'I': '§', 
+        'i': 'e', 'I': 'E', 
         'j': 'z', 'J': 'Z', 
-        'k': '∩', 'K': '∩', 
+        'k': 'g', 'K': 'G', 
         'l': 'm', 'L': 'M', 
         'm': 's', 'M': 'S', 
         'n': 'h', 'N': 'H', 
@@ -24,14 +24,14 @@
         'p': 'b', 'P': 'B', 
         'q': 'x', 'Q': 'X', 
         'r': 'n', 'R': 'N', 
-        's': 'ⅵ', 'S': 'ⅵ', 
+        's': 'c', 'S': 'C', 
         't': 'd', 'T': 'D', 
-        'u': '!', 'U': '!', 
+        'u': 'i', 'U': 'I', 
         'v': 'j', 'V': 'J', 
         'x': 'q', 'X': 'Q', 
         'w': 'f', 'W': 'F', 
         'y': 'o', 'Y': 'O', 
-        'z': '£', 'Z': '£', 
+        'z': 'w', 'Z': 'W', 
     }
     const alphabetCactobeto = new Object;
     for (var letter in alphabet) {
