@@ -40,7 +40,7 @@
 
     revert.addEventListener('click', function(e) {
         traduzir.classList.toggle('traduzirToCactobeto');
-        translate.classList.toggle('traduzirToEnglish');
+        traduzir.classList.toggle('traduzirToEnglish');
         englishInput.classList.toggle('input');
         CactobetoInput.classList.toggle('output');
         englishInput.classList.toggle('output');
