@@ -56,7 +56,7 @@
             const Cactobeto = Normal.replaceAll(/([A-Za-z])/g, function (m) {
                 return alphabet[m];
             });
-            output[0].value = alBhed;
+            output[0].value = Cactobeto;
         } 
         else if(Traduzir.className === 'TraduzirToNormal') {
             const Cactobeto = input[0].value;
